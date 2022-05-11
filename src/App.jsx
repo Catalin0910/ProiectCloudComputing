@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact from="/ProiectCloudComputing/" render={(props) => <Login {...props} />} />
-          <Route exact path="/ProiectCloudComputing/main" component={MainPage}></Route>
+          <Route exact path="https://catalin0910.github.io/ProiectCloudComputing/main" component={MainPage}></Route>
         </Switch>
       </BrowserRouter>
     </div>

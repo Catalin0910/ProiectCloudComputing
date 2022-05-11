@@ -10,17 +10,17 @@ const Login = () => {
 
   const history = useHistory();
   const handleLoginData = (event) => {
-    history.push("/main");
+    history.push("/ProiectCloudComputing/main");
   };
 
   return (
     <div>
       <GoogleLogin
-        clientId="118361486356-m3aqa2v3ovfebk5fep84kbuo60dfatut.apps.googleusercontent.com"
+        clientId="283208679130-4mbpb2u39fkh4oi0l4l4raf0mpd1n30v.apps.googleusercontent.com"
         buttonText="Login"
         onSuccess={handleLoginData}
         onFailure={responseGoogle}
-        href="http://localhost:3000/main"
+        href="/ProiectCloudComputing/main"
       />
     </div>
   );

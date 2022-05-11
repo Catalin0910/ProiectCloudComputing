@@ -2,6 +2,7 @@ import React from "react";
 import GoogleLogin from "react-google-login";
 import { useHistory } from "react-router-dom";
 
+
 const clientID = "283208679130-4mbpb2u39fkh4oi0l4l4raf0mpd1n30v.apps.googleusercontent.com";
 
 const Login = () => {
@@ -25,7 +26,7 @@ const Login = () => {
         isSignedIn={true}
         href="https://catalin0910.github.io/main"
       />
-      sa te fut
+poate vrei sa mergi
     </div>
   );
 };

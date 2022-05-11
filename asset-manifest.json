@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ProiectCloudComputing/static/css/main.64467d93.chunk.css",
-    "main.js": "/ProiectCloudComputing/static/js/main.d48b147c.chunk.js",
-    "main.js.map": "/ProiectCloudComputing/static/js/main.d48b147c.chunk.js.map",
+    "main.js": "/ProiectCloudComputing/static/js/main.acd36234.chunk.js",
+    "main.js.map": "/ProiectCloudComputing/static/js/main.acd36234.chunk.js.map",
     "runtime-main.js": "/ProiectCloudComputing/static/js/runtime-main.d9c9b34a.js",
     "runtime-main.js.map": "/ProiectCloudComputing/static/js/runtime-main.d9c9b34a.js.map",
     "static/css/2.62e1feb8.chunk.css": "/ProiectCloudComputing/static/css/2.62e1feb8.chunk.css",
-    "static/js/2.d0453b55.chunk.js": "/ProiectCloudComputing/static/js/2.d0453b55.chunk.js",
-    "static/js/2.d0453b55.chunk.js.map": "/ProiectCloudComputing/static/js/2.d0453b55.chunk.js.map",
+    "static/js/2.a9f6123d.chunk.js": "/ProiectCloudComputing/static/js/2.a9f6123d.chunk.js",
+    "static/js/2.a9f6123d.chunk.js.map": "/ProiectCloudComputing/static/js/2.a9f6123d.chunk.js.map",
     "index.html": "/ProiectCloudComputing/index.html",
     "static/css/2.62e1feb8.chunk.css.map": "/ProiectCloudComputing/static/css/2.62e1feb8.chunk.css.map",
     "static/css/main.64467d93.chunk.css.map": "/ProiectCloudComputing/static/css/main.64467d93.chunk.css.map",
-    "static/js/2.d0453b55.chunk.js.LICENSE.txt": "/ProiectCloudComputing/static/js/2.d0453b55.chunk.js.LICENSE.txt"
+    "static/js/2.a9f6123d.chunk.js.LICENSE.txt": "/ProiectCloudComputing/static/js/2.a9f6123d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d9c9b34a.js",
     "static/css/2.62e1feb8.chunk.css",
-    "static/js/2.d0453b55.chunk.js",
+    "static/js/2.a9f6123d.chunk.js",
     "static/css/main.64467d93.chunk.css",
-    "static/js/main.d48b147c.chunk.js"
+    "static/js/main.acd36234.chunk.js"
   ]
 }

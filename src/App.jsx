@@ -13,8 +13,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route exact from="/ProiectCloudComputing/" render={(props) => <Login {...props} />} />
-          <Route exact path="https://catalin0910.github.io/ProiectCloudComputing/main" component={MainPage}></Route>
+          <Route exact from="https://catalin0910.github.io/" render={(props) => <Login {...props} />} />
+          <Route exact path="https://catalin0910.github.io/main" component={MainPage}></Route>
         </Switch>
       </BrowserRouter>
     </div>

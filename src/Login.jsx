@@ -23,7 +23,7 @@ const Login = () => {
         onSuccess={handleLoginData}
         onFailure={responseGoogle}
         isSignedIn={true}
-        href="/ProiectCloudComputing/main"
+        href="https://catalin0910.github.io/main"
       />
     </div>
   );

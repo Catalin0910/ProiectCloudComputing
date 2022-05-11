@@ -26,7 +26,7 @@ const Login = () => {
         isSignedIn={true}
         href="https://catalin0910.github.io/main"
       />
-poate vrei sa mergi
+
     </div>
   );
 };

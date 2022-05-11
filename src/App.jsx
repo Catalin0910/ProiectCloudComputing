@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
-        <Switch>
+      <BrowserRouter basename="/main" component={MainPage}/>
+        {/* <Switch>
           <Route exact from="" render={(props) => <Login {...props} />} />
           <Route exact path="https://catalin0910.github.io/main" component={MainPage}></Route>
         </Switch>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }

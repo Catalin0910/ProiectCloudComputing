@@ -8,7 +8,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route exact from="/" render={(props) => <Login {...props} />} />
+          <Route exact from="https://catalin0910.github.io/ProiectCloudComputing/" render={(props) => <Login {...props} />} />
           <Route exact path="/main" component={MainPage}></Route>
         </Switch>
       </BrowserRouter>

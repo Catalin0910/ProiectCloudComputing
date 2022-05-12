@@ -24,7 +24,7 @@ const Login = () => {
         onSuccess={handleLoginData}
         onFailure={responseGoogle}
         isSignedIn={true}
-        href="https://catalin0910.github.io/main"
+        href="/main"
       />
 
     </div>

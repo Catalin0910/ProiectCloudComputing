@@ -12,7 +12,6 @@ const Login = () => {
   const responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);
-    
   };
 
   
@@ -30,7 +29,7 @@ const Login = () => {
         buttonText="Login"
         onSuccess={handleLoginData}
         onFailure={responseGoogle}
-        href="/main"
+        href="/#/main"
       />
 
     </div>

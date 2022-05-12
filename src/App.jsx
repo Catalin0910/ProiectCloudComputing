@@ -1,16 +1,23 @@
 import React from "react";
 import MainPage from "./MainPage";
 import Login from "./Login";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
 
 
 function App() {
 
   return (
     <div>
+      <ul>
+        <li>
+          <Link to="/main">Home Page</Link>
+        </li>
+      </ul>
         <Switch>
           <Route exact from="" render={(props) => <Login {...props} />} />
-          <Route exact path="/main" component={MainPage}></Route>
+          <Route path="/main">
+            <MainPage/>
+          </Route>
         </Switch>
     </div>
   );

@@ -10,7 +10,7 @@ function App() {
     <div>
         <Switch>
           <Route exact from="" render={(props) => <Login {...props} />} />
-          <Route exact path="/main" component={MainPage}></Route>
+          <Route path='/main' exact component={MainPage}/>
         </Switch>
     </div>
   );

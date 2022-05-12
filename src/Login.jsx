@@ -22,6 +22,9 @@ const Login = () => {
 
   return (
     <div>
+    
+      <button onClick={()=>history.push('/main')}>Apasa aici fara a te loga</button>
+      
       <GoogleLogin
         clientId={clientID}
         buttonText="Login"

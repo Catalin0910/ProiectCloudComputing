@@ -1,7 +1,7 @@
 import React from "react";
 import MainPage from "./MainPage";
 import Login from "./Login";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Switch} from "react-router-dom";
 
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
         <Switch>
-          <Route path from='/' exact component={Login}/>
-          <Route path='/main' exact component={MainPage}/>
+          <Route exact from="" render={(props) => <Login {...props} />} />
+          <Route exact path="/main" component={MainPage}></Route>
         </Switch>
     </div>
   );

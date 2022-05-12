@@ -27,7 +27,6 @@ const Login = () => {
         buttonText="Login"
         onSuccess={handleLoginData}
         onFailure={responseGoogle}
-        isSignedIn={true}
         href="/main"
       />
 

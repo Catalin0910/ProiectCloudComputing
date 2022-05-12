@@ -12,7 +12,7 @@ const Login = () => {
   const responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);
-    //history.push("/main");
+    history.push("/main");
   };
 
   

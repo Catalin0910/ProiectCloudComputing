@@ -8,14 +8,9 @@ function App() {
 
   return (
     <div>
-      <ul>
-        <li>
-          <Link to="/main">Home Page</Link>
-        </li>
-      </ul>
         <Switch>
-        <Route path='/' exact component={Login}/>
-         <Route path='/main' exact component={MainPage}/>
+          <Route path from='/' exact component={Login}/>
+          <Route path='/main' exact component={MainPage}/>
         </Switch>
     </div>
   );

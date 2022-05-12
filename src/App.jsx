@@ -14,10 +14,8 @@ function App() {
         </li>
       </ul>
         <Switch>
-          <Route exact from="" render={(props) => <Login {...props} />} />
-          <Route path="/main">
-            <MainPage/>
-          </Route>
+        <Route path='/' exact component={Login}/>
+         <Route path='/main' exact component={MainPage}/>
         </Switch>
     </div>
   );
